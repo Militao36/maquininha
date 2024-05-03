@@ -1,7 +1,6 @@
-import express from 'express'
-import cors from 'cors'
-import { database } from './mysql.js'
-
+const express = require('express')
+const cors = require('cors')
+const { database } = require('./mysql')
 const server = express()
 
 server.use(cors())

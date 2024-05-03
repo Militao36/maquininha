@@ -1,7 +1,6 @@
 {
   "name": "maquininha",
   "version": "1.0.0",
-  "type": "module",
   "main": "index.js",
   "author": "Militao36 <matheusmoreira3693@gmail.com>",
   "scripts": {
