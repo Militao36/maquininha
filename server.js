@@ -3,6 +3,8 @@ const cors = require('cors')
 const { database } = require('./mysql')
 const server = express()
 
+server.use(express.json())
+server.use(express.urlencoded({ extended: true }))
 server.use(cors())
 
 server.all('*', async (req, res) => {
